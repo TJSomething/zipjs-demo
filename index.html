@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Create a zip file demo</title>
+<link rel="stylesheet" href="default.css">
+<link rel="stylesheet" href="demo.css">
+<link href="css.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="container">
+		<h1>
+			<a href="http://gildas-lormeau.github.io/zip.js/">zip.js</a> <span class="small"></span>
+		</h1>
+
+		<div class="description">
+			A JavaScript library to zip and unzip files
+			<hr>
+		</div>
+		
+		<h2>Create a zip file demo</h2>
+		
+		<ol id="demo-container">
+			<li>
+				<label>
+					<span class="form-label">choose temporary storage</span>
+					<select id="creation-method-input">
+						<option selected="selected" value="Blob">RAM</option>
+						<option selected="selected" value="DB">DB</option>
+						<option selected="selected" value="File">HDD</option>
+						
+					</select>
+				</label>
+			</li>
+			<li>
+				<label>
+					<span class="form-label">add files into the zip</span>
+					<input multiple="" id="file-input" type="file">
+				</label>
+			</li>
+			<li>
+				<span class="form-label">view zip content</span>
+				<ul id="file-list">
+				</ul>
+			</li>
+			<li>
+				<label>
+					<span class="form-label">set zip file name</span>
+					<input id="filename-input" value="Example.zip" type="text">
+				</label>
+			</li>
+			<li>
+				<span class="form-label">download the zip file</span>
+				<a id="download-button" href="#">Download</a>
+			</li>
+		</ol>
+
+	</div>
+	<script src="ga.js" async="" type="text/javascript"></script>
+        <script type="text/javascript" src="zip.js"></script>
+	<script type="text/javascript" src="zip-ext.js"></script>
+	<script type="text/javascript" src="demo1.js"></script>
+
+</body></html>

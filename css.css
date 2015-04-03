@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Droid Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans Mono'), local('DroidSansMono'), url(https://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJYdJ2JT0J65PSe7wdxAnx_I.woff2) format('woff2'), url(https://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJUYuTAAIFFn5GTWtryCmBQ4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Istok Web Regular'), local('IstokWeb-Regular'), url(https://fonts.gstatic.com/s/istokweb/v8/EvPKapBawcLZ3hbihjhqAVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/istokweb/v8/EvPKapBawcLZ3hbihjhqAT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maven Pro Regular'), local('MavenProRegular'), url(https://fonts.gstatic.com/s/mavenpro/v7/MG9KbUZFchDs94Tbv9U-pVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/mavenpro/v7/MG9KbUZFchDs94Tbv9U-pT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli'), url(https://fonts.gstatic.com/s/muli/v7/z6c3Zzm51I2zB_Gi7146Bg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/muli/v7/kU4XYdV4jtS72BIidPtqyw.woff) format('woff');
+}
