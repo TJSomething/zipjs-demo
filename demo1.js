@@ -3,7 +3,7 @@
 	var requestFileSystem = obj.webkitRequestFileSystem || obj.mozRequestFileSystem || obj.requestFileSystem;
 
 	function onerror(message) {
-		alert(message);
+		console.log(message);
 	}
 
 	function createTempFile(callback) {
